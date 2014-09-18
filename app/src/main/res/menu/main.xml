@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/new_post"
+        android:icon="@drawable/ic_ic_menu_edit"
+        android:title="@string/new_post"
+        yourapp:showAsAction="ifRoom"  />
+</menu>

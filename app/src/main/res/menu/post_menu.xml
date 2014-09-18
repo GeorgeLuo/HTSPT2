@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    tools:context=".PostActivity" >
+
+    <item android:id="@+id/spot_spinner"
+        yourapp:showAsAction="ifRoom"
+        android:title="Spot Spinner"
+        yourapp:actionViewClass="android.widget.Spinner" />
+
+    <item android:id="@+id/post_up"
+        android:title="Send"
+        android:icon="@drawable/ic_cab_done_holo_dark"
+        yourapp:showAsAction="ifRoom"  />
+</menu>

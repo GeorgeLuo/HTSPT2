@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HopSpot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="map">Map</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="connected">Client connected</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="unknown_activity_request_code">
+        Received an unknown activity request code %1$d in onActivityResult.
+    </string>
+    <string name="post">
+        Post
+    </string>
+    <string name="write" />
+    <string name="new_post" />
+
+</resources>

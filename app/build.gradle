@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '20.0.0'
+
+    defaultConfig {
+        applicationId "wolf.george.htspt"
+        minSdkVersion 15
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.android.gms:play-services:+'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/autobahn-0.5.0.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile 'com.android.support:appcompat-v7:20+'
+    compile 'com.google.maps.android:android-maps-utils:0.3+'
+}
