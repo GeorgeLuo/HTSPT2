@@ -12,6 +12,6 @@ Recently completed: Swipe to Refresh
 
 TODO:
 
-remove auto-refresh on tab selected
-increase acceptance area of gender activity
+remove auto-refresh on tab selected;
+increase acceptance area of gender activity;
 add settings options
